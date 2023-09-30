@@ -1,0 +1,245 @@
+
+ 
+  *{
+    padding: 0%;
+    margin: 0%; 
+     
+     
+ }
+
+ p
+
+.cv{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+
+
+
+
+.header{
+
+    background-color: rgb(182, 186, 186);
+    text-align: center;
+    padding-top: 10px;
+    padding: 3%;
+    
+    
+}
+
+h1{
+    padding-top: 10px;
+    /* text-align: center; */
+
+}
+
+h1{
+    font-size: 300%;
+}
+/* 
+i{
+    font-size: 100%;
+} */
+
+
+.artical{
+    display: grid ;
+    text-align: justify;
+    padding: 3%;
+
+     grid-template-columns: 50% 50%;
+     background-color: rgb(237, 252, 247);
+}
+
+.icon{
+
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+/* 
+    text-align: center; 
+
+    display: flex; 
+       padding-left: 30%; 
+      align-content: center;
+      text-align: center;
+      font-size: 100%; */
+       
+      
+}
+
+.icon1{
+
+    /* text-align: center;  */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+     
+     
+    /* text-align: center;
+    padding-left: 15%;
+    font-size: 100%;*/
+}
+
+.icon2{
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    /* text-align: center; 
+     display: flex;
+    flex-direction: row; 
+     padding-left: 30%; 
+      padding-right: 30%; 
+     text-align: center;
+     align-self: center;
+     font-size: 100%; 
+     */
+     
+}  
+
+ .C{
+    text-align: left;
+ }
+
+.pp{
+
+     
+}
+
+h3{
+    
+}
+
+#tt{
+    text-decoration: none;
+    
+}
+
+#cc{
+    text-decoration: none;
+}
+
+.D{
+
+    
+    align-items: center;
+      display: flex; 
+    
+     justify-content: space-between;
+
+}
+
+.left{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.right{
+
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+/*  
+ p{
+    text-align: center;
+ }
+
+ .B{
+    text-align: center;
+ }
+  */
+
+  @media only screen and (max-width: 600px){
+
+    .cv{
+        display: grid;
+        grid-template-rows: auto auto;
+    
+    }
+
+     
+    .header{
+
+        background-color: rgb(182, 186, 186);
+        text-align: center;
+        padding-top: 10px;
+        padding: 3%;
+        
+        
+    }
+    
+    
+
+    .icon{
+
+
+        display: grid; 
+        align-items: center;
+        justify-content: center;
+    /* 
+        text-align: center; 
+    
+        display: flex; 
+           padding-left: 30%; 
+          align-content: center;
+          text-align: center;
+          font-size: 100%; */
+           
+          
+    }
+    
+    .icon1{
+    
+        /* text-align: center;  */
+        display: grid; 
+        align-items: center;
+        justify-content: center;
+         
+         
+        /* text-align: center;
+        padding-left: 15%;
+        font-size: 100%;*/
+    }
+    
+    .icon2{
+    
+        display: grid; 
+        align-items: center;
+        justify-content: center;
+    
+        /* text-align: center; 
+         display: flex;
+        flex-direction: row; 
+         padding-left: 30%; 
+          padding-right: 30%; 
+         text-align: center;
+         align-self: center;
+         font-size: 100%; 
+         */
+         
+    }  
+
+    
+        .rrr{
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    
+
+        .artical{
+            display: block ;
+            text-align: justify;
+            padding: 3%;
+            flex-direction : row;
+        
+             grid-template-columns: 50% 50%;
+             background-color: rgb(237, 252, 247);
+        }
+  }
